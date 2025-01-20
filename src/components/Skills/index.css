@@ -1,0 +1,29 @@
+.bouncing-letters {
+    display: inline-block;
+  }
+  
+  .bouncing-letters span {
+    display: inline-block;
+    animation: bounce 1.5s infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  /* Add delay for each letter */
+  .bouncing-letters span:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .bouncing-letters span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .bouncing-letters span:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .bouncing-letters span:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  .bouncing-letters span:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  .bouncing-letters span:nth-child(6) {
+    animation-delay: 0.6s;
+  }
