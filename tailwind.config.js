@@ -12,11 +12,11 @@ export default {
         gridTemplateColumns: {
           '70/30': '70% 28%',
         },
-        '.no-scrollbar': {
-          '-ms-overflow-style': 'none', /* IE and Edge */
-          'scrollbar-width': 'none', /* Firefox */
-        },
+        
     },
+    plugins: [
+      require("tailwind-scrollbar-hide")
+    ],
   },
   plugins: [],
 }

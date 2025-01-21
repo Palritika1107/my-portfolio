@@ -33,11 +33,11 @@ const Navbar = () => {
   return (
     <div className="bg-gray-900 bg-opacity-75 p-4 fixed w-full h-[80px] flex justify-end px-1 pr-6 text-white z-10">
       {/* menu */}
-      <div className=" flex justify-between items-center">
+      <div className="flex justify-between items-center">
         <ul className="hidden md:flex space-x-2">
           <li>
-            <Link to="home" smooth={true}>
-              <div className="flex items-center group transition-colors duration-300 hover:text-[#B08D57]">
+            <Link to="head" smooth={true}>
+              <div className="flex items-center group transition-colors duration-300 hover:text-[#B08D57] cursor-pointer">
                 <AiOutlineHome className="m-1 text-white text-xl transition-colors duration-300 group-hover:text-[#B08D57]" />{" "}
                 Home
               </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="about" smooth={true}>
-              <div className="flex items-center group transition-colors duration-300 hover:text-[#B08D57]">
+              <div className="flex items-center group transition-colors duration-300 hover:text-[#B08D57] cursor-pointer">
                 <AiOutlineUser className="m-1 text-white text-xl transition-colors duration-300 group-hover:text-[#B08D57]" />{" "}
                 About
               </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="experience" smooth={true}>
-              <div className="flex items-center transition-colors group duration-300 hover:text-[#B08D57]">
+              <div className="flex items-center transition-colors group duration-300 hover:text-[#B08D57] cursor-pointer">
                 <AiOutlineBook className="m-1 text-white text-xl transition-colors duration-300 group-hover:text-[#B08D57]" />{" "}
                 Experience
               </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="projects" smooth={true}>
-              <div className="flex items-center transition-colors group duration-300 hover:text-[#B08D57]">
+              <div className="flex items-center transition-colors group duration-300 hover:text-[#B08D57] cursor-pointer">
                 <AiOutlineProject className="m-1 text-white text-xl transition-colors duration-300 group-hover:text-[#B08D57]" />{" "}
                 Projects
               </div>
@@ -69,7 +69,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="contact" smooth={true}>
-              <div className="flex items-center transition-colors group duration-300 hover:text-[#B08D57]">
+              <div className="flex items-center transition-colors group duration-300 hover:text-[#B08D57] cursor-pointer">
                 <AiOutlinePhone className="m-1 text-white text-xl transition-colors duration-300 group-hover:text-[#B08D57]" />{" "}
                 Contact
               </div>
@@ -88,38 +88,38 @@ const Navbar = () => {
         className={
           mm
             ? "fixed top-10 right-0 w-[80vw] md:w-[40vw] h-[60vh] md:h-[40vh] bg-gray-900 bg-opacity-75 flex flex-col justify-start items-center shadow-lg transition-all duration-300 overflow-auto"
-      : "hidden"
+            : "hidden"
         }
       >
-        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
+        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57] cursor-pointer">
           <Link to="home" smooth={true} onClick={handleClick}>
             <div className="flex">
               <AiOutlineHome className="m-1" /> Home
             </div>
           </Link>
         </li>
-        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
+        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57] cursor-pointer">
           <Link to="about" smooth={true} onClick={handleClick}>
             <div className="flex">
               <AiOutlineUser className="m-1" /> About
             </div>
           </Link>
         </li>
-        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
+        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57] cursor-pointer">
           <Link to="experience" smooth={true} onClick={handleClick}>
             <div className="flex">
               <AiOutlineBook className="m-1" /> Experience
             </div>
           </Link>
         </li>
-        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
+        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57] cursor-pointer">
           <Link to="projects" smooth={true} onClick={handleClick}>
             <div className="flex">
               <AiOutlineProject className="m-1" /> Projects
             </div>
           </Link>
         </li>
-        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57]">
+        <li className="py-4 text-xl md:text-2xl transition-colors duration-300 hover:text-[#B08D57] cursor-pointer">
           <Link to="contact" smooth={true} onClick={handleClick}>
             <div className="flex">
               <AiOutlinePhone className="m-1" /> Contact

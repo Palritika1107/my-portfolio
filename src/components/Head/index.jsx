@@ -70,16 +70,16 @@ const Home = () => {
             <div className="max-w-screen-xl mx-auto px-6 md:ml-30 md:px-16 flex flex-col md:flex-row h-screen items-center justify-center pt-40 lg:pt-0">
                 <div className="md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left lg:ml-20">
                     <h1 className="text-3xl md:text-5xl font-bold leading-tight name-element mb-2 lg:zoom-text" style={{ color: currentColor }}>
-                        Hello, I'm <span className="text-[#B08D57]">Ritika</span>
+                        Hello, I'm <span className="text-yellow-300">Ritika</span>
                     </h1>
                     <div className="h-10">
-                    <h2 className="text-xl md:text-3xl font-bold text-[#B08D57] mb-4">{currentTitle}</h2>
+                    <h2 className="text-xl md:text-3xl font-bold text-yellow-300 mb-4">{currentTitle}</h2>
                     </div>
                     <p className="text-gray-700 max-w-md md:max-w-lg text-sm md:text-base">
                         Frontend Development/Full Stack Development 
                     </p>
                     <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 md:space-x-4 mt-20 lg:mt-10">
-                        <button onClick={handleResume} className="text-[#B08D57] group border-[#B08D57] border-2 px-4 py-2 md:px-6 md:py-3 my-2 md:my-0 flex items-center hover:bg-[#B08D57] hover:border-[#B08D57] hover:text-[#F7F4EC] text-sm md:text-base"
+                        <button onClick={handleResume} className="text-yellow-300 group border-yellow-300 border-2 px-4 py-2 md:px-6 md:py-3 my-2 md:my-0 flex items-center hover:bg-yellow-300 hover:border-yellow-300 hover:text-teal-500 text-sm md:text-base"
                                         >
                             Download Resume
                             <span className="group-hover:rotate-90 duration-300">
@@ -114,7 +114,7 @@ const Home = () => {
                     
                     
                                          <p className="text-gray-700 my-2 text-sm md:text-lg md:text-base">
-                                             <AiOutlineEnvironment className="inline text-[#B08D57] mr-1"/> {location}
+                                             <AiOutlineEnvironment className="inline text-yellow-300 mr-1"/> {location}
                                          </p>
                                     
         </div>
