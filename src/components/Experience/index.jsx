@@ -52,7 +52,7 @@ const Experience = () => {
               className="vertical-timeline-element--education"
               date="August 2018 - June 2022"
               contentStyle={{ background: "#F2EDE4" }}
-              iconStyle={{ background: "#FFD700", color: "#000000" }} 
+              iconStyle={{ background: "#FFD700", color: "#000000" }}
             >
               🏫
               <h3 className="vertical-timeline-element-title font-bold text-lg text-teal-800">
@@ -61,7 +61,7 @@ const Experience = () => {
               <h4 className="vertical-timeline-element-subtitle font-bold text-teal-800">
                 BTech Computer Engineering
               </h4>
-              <p className="text-teal-800">GPA: 9.2/10</p>
+              <p className="text-teal-800">GPA: 9.4/10</p>
               <button
                 onClick={handleTranscript}
                 className="border-yellow-300 border-2 p-1 mt-2 text-teal-800 flex items-center text-sm hover:bg-yellow-300 hover:border-yellow-300 hover:text-teal-800"
@@ -96,10 +96,12 @@ const Experience = () => {
                   front-end technology.
                 </li>
                 <li>
-                  Developed an application for knowledge exchange using React &
-                  Django.
+                  Developed an application for knowledge exchange using React.
                 </li>
-                <li>Configured OpenShift clusters on IBM Z Systems for QA.</li>
+                <li>
+                  Performed load and performance testing of Kafka deploy‑ ments
+                  on OpenShift Serverless.
+                </li>
                 <li>
                   Gained proficiency in Jira, Agile development, and Scrum
                   methodologies.

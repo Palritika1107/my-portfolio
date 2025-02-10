@@ -12,7 +12,7 @@ const About = () => {
         
         <div className="text-center mx-4 md:mx-10">
           <h1 className="text-lg md:text-2xl">
-            Hi, I am Ritika Pal, 24 years old, living in Bengaluru, India
+            Hi, I am Ritika Pal, 25 years old, living in Bengaluru, India
           </h1>
           <h3 className="mt-2 text-sm md:text-base">
             I am learning{" "}

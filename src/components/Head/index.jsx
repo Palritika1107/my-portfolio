@@ -9,7 +9,7 @@ import profilePhoto from '../../assets/imgs/profile-photo.jpg'
 import Socials from "../Socials";
 
 const Home = () => {
-    const resumeUrl = '';
+    const resumeUrl = 'https://drive.google.com/file/d/1cmtSnIWdxElH7lPLjGnFAuZdChxShWAo/view?usp=sharing';
 
     const jobTitles = ['Software Engineer','Frontend Developer'];
     const location = 'Bengaluru,Karnataka';
