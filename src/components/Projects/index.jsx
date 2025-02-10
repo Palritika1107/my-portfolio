@@ -51,7 +51,7 @@ const Projects = () => {
           <img
             src={splitwiseImg}
             alt="Skribble-icon"
-            className="max-w-full block"
+            className="max-w-full block h-auto"
           />
         </div>
         {/* description */}
@@ -68,7 +68,7 @@ const Projects = () => {
            <FaGithub size={20} /> View Code
           </a>
           <a
-            href="https://github.com/Palritika1107/Splitwise"
+            href="https://splitwise-yx9o.vercel.app/"
             className="flex justify-between items-center text-yellow-300 hover:underline mt-2"
           >
            <FaLink size={20} /> Live Link

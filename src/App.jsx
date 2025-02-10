@@ -13,20 +13,31 @@ import githubLogo from "./assets/imgs/github-logo.webp";
 
 const App = () => {
   return (
-    <div className="scrollbar-hide">
+    <div className="scrollbar-hide overflow-x-hidden"> {/* Add overflow-x-hidden here */}
       <Navbar />
-      <body className="font-mono">
+      <div className="font-mono">
         <div className="scroll-snap-type-y mandatory h-screen overflow-y-scroll scrollbar-hide">
           {/* Header Section */}
-          <Element name="head"> <div id="head"><Head /></div></Element>
-          <Element name="about"><div id="about"><About /></div></Element>
-          <Element name="skills"><div id="skills"><Skills /></div></Element>
-          <Element name="experience"><div id="experience"><Experience /></div></Element>
-          <Element name="projects"><div id="projects"><Projects /></div></Element>
-
-          <Element name="contact"><div id="contact"><Contact /></div></Element>
+          <Element name="head">
+            <div id="head"><Head /></div>
+          </Element>
+          <Element name="about">
+            <div id="about"><About /></div>
+          </Element>
+          <Element name="skills">
+            <div id="skills"><Skills /></div>
+          </Element>
+          <Element name="experience">
+            <div id="experience"><Experience /></div>
+          </Element>
+          <Element name="projects">
+            <div id="projects"><Projects /></div>
+          </Element>
+          <Element name="contact">
+            <div id="contact"><Contact /></div>
+          </Element>
         </div>
-      </body>
+      </div>
     </div>
   );
 };
